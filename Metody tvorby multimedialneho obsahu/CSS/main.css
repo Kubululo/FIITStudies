@@ -1,4 +1,10 @@
-h1 {
-    color: navy;
-    text-align: center;  
+.header {
+    text-align: center; 
+    height: 80px;
+    font-family: "ABeeZee";
+    color: #FF6700;
+}
+.more_button
+{
+    align-content: center;
 }
