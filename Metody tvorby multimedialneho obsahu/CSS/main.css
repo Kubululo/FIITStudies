@@ -12,9 +12,9 @@ body{
     background-color: #FF6700;
     margin: 0px auto;
     width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    //position: -webkit-sticky;
+    //position: sticky;
+    //top: 0;
 }
 .header h1{
     margin-left: 200px;
@@ -40,14 +40,34 @@ body{
 }
 */
 .header{
-    position: relative;
+    color: #FFFF;
+    background-color: #FF6700;
 }
 .header ul{
-    position: absolute;
-    left: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+.header ul li{
+    float: left;
+}
+ #searchbar_li{
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+}
+.searchbar{
+    border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    height: 20px;
+    float: right;
+}
+
 .logo{
-    width: 25px;
+    width: 80px;
     height: auto;
 }
 .intro{
