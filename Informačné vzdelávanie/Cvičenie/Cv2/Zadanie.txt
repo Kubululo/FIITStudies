@@ -1,7 +1,6 @@
 ﻿Siete IOT – IOT Networks
 Skurčák Jakub
 
-
 www.doaj.org : 
     • „IOT networks“
     • „IOT networks“ OR „networks used in IOT“
@@ -34,3 +33,5 @@ www.arxiv.org:
     • "LoraWAN" – SigFox
     • "M2M network"
     • Sigfox
+		
+
