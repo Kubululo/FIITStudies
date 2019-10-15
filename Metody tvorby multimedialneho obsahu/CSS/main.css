@@ -1,10 +1,64 @@
+body{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+/*
 .header {
     text-align: center; 
     height: 80px;
     font-family: "ABeeZee";
-    color: #FF6700;
+    color: #FFFF;
+    background-color: #FF6700;
+    margin: 0px auto;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
-.more_button
-{
-    align-items: center;
+.header h1{
+    margin-left: 200px;
 }
+.logo{
+    width: auto; height: 100%;
+}
+.logo_text{
+    font-family: Raleway;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top: 20px;
+}
+.searchbar{
+    border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+}
+*/
+.header{
+    position: relative;
+}
+.header ul{
+    position: absolute;
+    left: 50%;
+}
+.logo{
+    width: 25px;
+    height: auto;
+}
+.intro{
+    margin-top: 50px;
+    text-align: justify;
+    font-family: Raleway;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
+}
+.intro p{
+    margin: auto;
+}
+
