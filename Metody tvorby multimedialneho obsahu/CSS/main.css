@@ -3,42 +3,6 @@ body {
   margin-right: 0px;
   margin-left: 0px;
 }
-/*
-.header {
-    text-align: center; 
-    height: 80px;
-    font-family: "ABeeZee";
-    color: #FFFF;
-    background-color: #FF6700;
-    margin: 0px auto;
-    width: 100%;
-    //position: -webkit-sticky;
-    //position: sticky;
-    //top: 0;
-}
-.header h1{
-    margin-left: 200px;
-}
-.logo{
-    width: auto; height: 100%;
-}
-.logo_text{
-    font-family: Raleway;
-    margin-top:0px;
-    margin-bottom:0px;
-    padding-top: 20px;
-}
-.searchbar{
-    border-radius: 10px;
-    width: 220px;
-    height: 40px;
-    margin-right: 20px;
-    text-align: center;
-    height: 20px;
-    float: right;
-    margin-top: 5px;
-}
-*/
 .header {
   color: #ffff;
   background-color: #ff6700;
@@ -174,7 +138,6 @@ body {
 .dot:hover {
   background-color: #717171;
 }
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -214,23 +177,21 @@ body {
   width: 75%;
   height: 1000px;
   margin: auto;
-  padding: 10px;
   margin-top: 50px;
   text-align: justify;
   font-family: Raleway;
 }
-.one{
+.compare .one{
   width: 50%;
   height: 100%;
-    float: left;
+  float: left;
 }
-.two{
+.compare .two{
   margin-left: 50%;
   height: 100%;
+  max-height: 800px;
 }
 .compare_text , .compare_text2{
-  text-align: justify;
-  font-family: Raleway;
   margin-right: auto;
   margin-left: auto;
   max-width: 80%;
@@ -238,24 +199,21 @@ body {
 .compare_photo1 , .compare_photo2{
 width: 100%;
 height: auto;
+
 margin: 0 auto;
 }
-/*
-.compare{
-  margin-top: 50px;
-  text-align: justify;
+.redirect{
+  width: 70px;
+  height: auto;
+  margin: 0 auto;
+}
+.button_redirect{
+  margin: 10px auto;
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+  color: white;
   font-family: Raleway;
-  margin-right: auto;
-  margin-left: auto;
-  width: 75%
+  font-weight: 800;
+  background-color: #ff6700;
 }
-.compare ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.compare ul li {
-  display: inline;
-}
-*/
