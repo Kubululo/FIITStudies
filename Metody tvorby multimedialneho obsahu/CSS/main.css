@@ -2,6 +2,31 @@ body {
   margin-top: 0px;
   margin-right: 0px;
   margin-left: 0px;
+  background-attachment: fixed;
+  background-image: url("../Pictures_CAN_USE/IMG_20190817_130333.jpg");
+  height: 100%;
+  z-index: -1;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+      
+    ),
+    url("../Pictures_CAN_USE/IMG_20190817_130333.jpg");
+     background-size: 100%;
+     background-position: 250%;
+     
+}
+a{
+  font-family: Raleway;
+  color:white;
+}
+a:hover{
+  font-weight: 700;
+}
+h2,
+p {
+  color: white;
 }
 .header {
   color: #ffff;
@@ -27,10 +52,10 @@ body {
   float: right;
 }
 .searchbar {
-  border-radius: 10px;
-  width: 220px;
+  border-radius: 25px;
+  width: 250%;
   text-align: center;
-  height: 20px;
+  height: 30px;
   float: right;
 }
 
@@ -64,18 +89,22 @@ body {
 }
 
 .slideshow-container {
-  
   max-width: 500px;
   position: relative;
   margin: auto;
+  padding-top: 0.5%;
+  padding-bottom: 0.3%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+  margin-top: 2%;
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.5);
 }
 
 .mySlides {
-  margin-top: 50px;
+  
   display: none;
 }
-#slide
-{
+#slide {
   max-height: 500px;
   width: auto;
 }
@@ -140,9 +169,9 @@ body {
 }
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 10s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
@@ -163,7 +192,7 @@ body {
   }
 }
 .specs {
-  margin-top: 50px;
+  margin-top: 2%;
   text-align: justify;
   font-family: Raleway;
   margin-right: auto;
@@ -173,47 +202,162 @@ body {
 .specs p {
   margin: auto;
 }
-.compare{
+.compare {
   width: 75%;
-  height: 1000px;
+  height: auto;
   margin: auto;
   margin-top: 50px;
   text-align: justify;
   font-family: Raleway;
 }
-.compare .one{
-  width: 50%;
+.compare .one {
+  width: 45%;
   height: 100%;
   float: left;
 }
-.compare .two{
-  margin-left: 50%;
+.compare .two {
+  margin-left: 55%;
   height: 100%;
   max-height: 800px;
 }
-.compare_text , .compare_text2{
+.compare_text,
+.compare_text2 {
   margin-right: auto;
   margin-left: auto;
   max-width: 80%;
 }
-.compare_photo1 , .compare_photo2{
-width: 100%;
-height: auto;
-
-margin: 0 auto;
+.compare_photo1,
+.compare_photo2 {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
 }
-.redirect{
+/*.redirect_div {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+.redirect {
   width: 70px;
   height: auto;
   margin: 0 auto;
 }
-.button_redirect{
+.button_redirect {
   margin: 10px auto;
   border-radius: 15px;
-  width: 100%;
+  width: 250%;
   height: auto;
   color: white;
   font-family: Raleway;
   font-weight: 800;
   background-color: #ff6700;
+}*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.UI {
+  margin-top: 2%;
+}
+.ui {
+  margin-top: 50px;
+  text-align: justify;
+  font-family: Raleway;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+}
+.ui_picture {
+  border-radius: 2%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.ui_picture_div{
+  width: 20%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+.discussion{
+  margin-top: 2%;
+  text-align: justify;
+  font-family: Raleway;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+}
+.discussion_content{
+  width:80%;
+  height: auto;
+  margin: 0 auto;
+}
+#discussion_form{
+  height: auto;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#discussion_form p{
+text-align: center;
+}
+.discussion_content p{
+  text-align: center;
+  }
+.input{
+  -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+    border: none;
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+  
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+.comment{
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+}
+.specs_table_div{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+.specs_table_div img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10%;
 }
