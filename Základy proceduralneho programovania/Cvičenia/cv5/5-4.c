@@ -6,7 +6,7 @@ int main()
 {
   int i, space, rows, k=0;
   scanf("%d",&rows);
-  if(rows>15 || rows<1){
+  if(rows>15 || rows<1 || rows %2 ==0){
     printf("Zly vstup");
   }
   else{
