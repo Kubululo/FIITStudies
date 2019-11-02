@@ -1,0 +1,21 @@
+﻿\documentclass{(class)} – definovanie  typu dokumentu
+\begin{document} – začiatok textu dokumentu musi byt ukonceny \end{document}
+\begin{figure} – figura na jeden stĺpec potrebne ukoncit \end{figure}
+\begin{figure*} – figura na celú stranu, potrebne ukoncit \end{figure*}
+\section{(nazov sekcie)} – začiatok sekcie nieje potrebne ukončovať
+\begin{enumerate} - začiatok číslovaného listu, vo vnútri je potrebné písať \item ktorý začína jednotlivé časti, je potrebné ukončiť \end{enumerate}
+\begin{itemize} - začiatok nečíslovaného listu, vo vnútri je potrebné písať \item ktorý začína jednotlivú časť, je ho potrebné ukončiť \end{itemize}
+\begin{equatation} - zapína matematiký mód, potrebné ukončiť \end{equatation}
+\begin{thebibliography} - začiatok referencií, je potrebné ukončiť \end{thebibliography}
+\footnote{...} - píše sa do textu,  vytvorí vysvetlivku pod čiarou očíslovanú
+\includegraphic[(parametre)]{(cesta k obrázku)}
+
+Použité balíky:
+\usepackage[english]{babel}
+\usepackage{url} 
+\usepackage{textgreek} - používanie gréckej abecedy
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,dblfloatfix} - používanie obrázkov a oprava float 
+\usepackage{booktabs} - používanie tabov
+\usepackage{caption} - pridávanie textu k figúram
+\usepackage{float} - nastavenie pozície figúry

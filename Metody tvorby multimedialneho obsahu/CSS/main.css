@@ -351,7 +351,7 @@ border-radius: 50px;
   margin: 0 auto;
 }
 .specs_table_div{
-  width: 80%;
+  width: 30%;
   height: auto;
   margin: 0 auto;
 }
@@ -361,3 +361,15 @@ border-radius: 50px;
   margin: 0 auto;
   margin-bottom: 10%;
 }
+.specs_table_div video{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+.specs_table_div audio{
+  width: 100%;
+  
+}
+
+

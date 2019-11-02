@@ -1,0 +1,37 @@
+﻿Siete IOT – IOT Networks
+Skurčák Jakub
+
+www.doaj.org : 
+    • „IOT networks“
+    • „IOT networks“ OR „networks used in IOT“
+    • „IOT networks“ - LTE
+    • "LpWAN"
+    • "LoraWAN" – SigFox
+    • "M2M network"
+    • Sigfox
+www.mdpi.com :
+    • „IOT networks“
+    • „IOT networks“ OR „networks used in IOT“
+    • „IOT networks“ - LTE
+    • "LpWAN"
+    • "LoraWAN" – SigFox
+    • "M2M network"
+    • Sigfox
+www.worldwidescience.org :
+    • „IOT networks“
+    • „IOT networks“ OR „networks used in IOT“
+    • „IOT networks“ - LTE
+    • "LpWAN"
+    • "LoraWAN" – SigFox
+    • "M2M network"
+    • Sigfox
+www.arxiv.org:
+    • „IOT networks“
+    • „IOT networks“ OR „networks used in IOT“
+    • „IOT networks“ - LTE
+    • "LpWAN"
+    • "LoraWAN" – SigFox
+    • "M2M network"
+    • Sigfox
+		
+
