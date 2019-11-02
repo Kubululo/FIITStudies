@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../CSS/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+    rel="stylesheet"
+  />
+  <title>Xiaomi Mi6 Showcase</title>
+</head>
+
+<body>
+  <div class="header">
+    <ul>
+      <li>
+        <a href="./WelcomePage.html">
+          <img
+            class="logo dropbtn"
+            src="../Pictures_DO_NOT_USE/1024px-Xiaomi_logo.svg.png"
+            alt="Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <H1 class="logo_text">Xiaomi Mi6 </H1>
+      </li>
+      <li id="searchbar_li">
+        <!-- pod 450px nastavit responzivitu -->
+        <input
+          class="searchbar"
+          type="text"
+          placeholder="Search for your desired section"
+          maxlength="10"
+        />
+      </li>
+    </ul>
+  </div>
+  <div class="dropdown">
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+
+  <!--
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+-->
+
+  <section class="Introduction">
+    <div class="intro">
+      <h2>Introduction</h2>
+      <p>
+        Xiaomi už niekoľko rokov medzi špičku vo výrobe smartphonov. Vďačí
+        hlavne veľmi dobrej kombinácií relatívne nizkej ceny a vysokého výkonu a
+        kvality spracovania. Smarphone Mi6 z modelovej rady Mi už síce nepatrí k
+        najnovším a ani k najvýkonejším avšak stále patrí medzi výkonné telefoný
+        Portál "gsmarena.com" hodnotí tento smartphone hodnotením 4.6/5 čo už
+        samo o sebe je výborne avšak tento portál ešte na konci dodáva "The Mi 6
+        succeeds where others would have likely failed, and not just on paper.
+        It has processing power to spare, one of the best designs, a very
+        credible camera, solid battery life, quality stereo sound" - Smartphone
+        Xiaomi Mi6 uspela tam kde by ostatní výrobcovia pravdepodobne zlyhali, a
+        to nielen na papiery. Výkonu má na rozdávanie, jeden s najlepších
+        dizajnov, dosť uspokojivú kameru, dlhú výdrž bateríe a kvalitný stereo
+        zvuk
+      </p>
+    </div>
+  </section>
+  <section class="Gallery">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img
+          id="slide"
+          src="../Pictures_CAN_USE/FrontSide_1.png"
+          style="width:auto"
+        />
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img
+          id="slide"
+          src="../Pictures_CAN_USE/BackSide_1.png"
+          style="width:auto"
+        />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
+  <section id="Specs" class="Specs">
+    <div class="specs">
+      <h2>Specs</h2>
+      <p>
+        Xiaomi Mi6 poháňa výkonný ale už trochu starý chipset od známej firmy Qualcomm - Snapdragon 835 a grafický akcelerátor Adreno 540.
+        K tomu je príjemným potešením pamäť RAM o velkosti 6GB.
+        Displej s technológiou IPS nemá síce najvyššíe rozlíšenie (len 1080p - fullHD) avšak môže sa pochváliť velmi verným reprezentovaním farieb a vysokým dynamickým rozsahom.
+        <a href="./Specs.html">Read more</a>
+      </p>
+    </div>
+  </section>
+  <section class="Compare">
+    <div class="compare">
+      <h2>Comparation</h2>
+      <div class="one">
+        <img
+          class="compare_photo1"
+          src="../Pictures_DO_NOT_USE/sm_5aff6089d3e02.png"
+          alt="No photo"
+        />
+        <p class="compare_text">
+          AUTOMATICKY GENEROVANY TEXT PRE POROVNAVANIE
+          <a href="./">Read more</a>
+        </p>
+      </div>
+      <div class="two">
+        <img
+          class="compare_photo2"
+          src="../Pictures_DO_NOT_USE/sm_5aff6089d3e02.png"
+          alt="No photo"
+        />
+        <p class="compare_text2">
+          AUTOMATICKY GENEROVANY TEXT PRE POROVNAVANIE
+          <a href="./">Read more</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="UI">
+    <div class="ui">
+      <h2>User Interface</h2>
+      <div class="ui_picture_div">
+        <a href="./">
+          <img
+            class="ui_picture"
+            src="../Pictures_CAN_USE/Screenshot_2019-10-17-11-48-43-104_com.miui.home.jpg"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="Discussion">
+    <div class="discussion">
+      <h2>Have a problem?</h2>
+      <div class="discussion_content">
+        <p>
+          Enter your comment:
+        </p>
+        <textarea
+          class="input comment"
+          name="comment"
+          id=""
+          cols="30"
+          rows="10"
+          form="discussion_form"
+          required
+        >
+        </textarea>
+        <form action="" method="get" id="discussion_form">
+          <p>Enter your name:</p>
+          <input class="input" type="text" name="name" required /> <br />
+          <input class="input button_redirect" type="submit" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="../JAVASCRIPT/main.js"></script>
+</body>
