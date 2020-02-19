@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-
-<head>
+<html>
+  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../CSS/main.css" />
@@ -15,10 +15,10 @@
   <div class="header">
     <ul>
       <li>
-        <a href="./WelcomePage.html">
+        <a href="javascript:history.back()">
           <img
             class="logo dropbtn"
-            src="../Pictures_DO_NOT_USE/1024px-Xiaomi_logo.svg.png"
+            src="../Assets/Picture/xiaomi_logo.svg.png"
             alt="Logo"
           />
         </a>
@@ -26,7 +26,7 @@
       <li>
         <H1 class="logo_text">Xiaomi Mi6 </H1>
       </li>
-      <li id="searchbar_li">
+      <li id="searchbar_li" class="search">
         <!-- pod 450px nastavit responzivitu -->
         <input
           class="searchbar"
@@ -37,42 +37,44 @@
       </li>
     </ul>
   </div>
+  <p class="resolution_error">SORRY THIS PAGE CANNOT BE SHOWN ON THIS RESOLUTION WE ARE SORRY FOR INCONVINIENCE</p>
+
   <section class="UI">
     <div class="ui">
       <h2>UI</h2>
-      <div class="specs_table_div">
+      <div class="ui_element_div">
         <video width="1080" autoplay controls>
           <source
-            src="../Pictures_CAN_USE/Screenrecorder-2019-10-21-18-01-26-746.mp4"
+            src="../Assets/Video/Screenrecorder-2019-10-21-18-01-26-746.mp4"
             type="video/mp4"
           />
         </video>
       </div>
-      <div class="specs_table_div">
+      <div class="ui_element_div">
         <video width="1080" autoplay controls>
           <source
-            src="../Assets/Videos/Screenrecorder-2019-10-23-13-24-02-473.mp4"
+            src="../Assets/Video/Screenrecorder-2019-11-04-13-49-59-662.mp4"
             type="video/mp4"
           />
         </video>
       </div>
 
-      <div class="specs_table_div">
+      <div class="ui_element_div">
         <img
-          src="../Pictures_CAN_USE/Screenshot_2019-10-21-16-59-49-679_com.android.settings.png"
+          src="../Assets/Picture/Screenshot_2019-10-21-16-59-49-679_com.android.settings.png"
         />
       </div>
-      <div class="specs_table_div">
+      <div class="ui_element_div">
         <img
-          src="../Pictures_CAN_USE/Screenshot_2019-10-21-16-59-40-769_com.miui.home.jpg"
+          src="../Assets/Picture/Screenshot_2019-10-21-16-59-40-769_com.miui.home.jpg"
         />
       </div>
-      <div class="specs_table_div">
+      <div class="ui_element_div">
         <img
-          src="../Pictures_CAN_USE/Screenshot_2019-10-21-16-59-45-798_com.miui.home.jpg"
+          src="../Assets/Picture/Screenshot_2019-10-21-16-59-45-798_com.miui.home.jpg"
         />
       </div>
-      <div class="specs_table_div">
+      <div class="ui_element_div">
         <audio controls>
           <source src="../Assets/Sound/Xiaomi_CC9_Stock_Ringtones/Ringtones/MiRemix.mp3" type="audio/mpeg">
         </audio>
@@ -80,4 +82,6 @@
     </div>
   </section>
   <script src="../JAVASCRIPT/main.js"></script>
+
 </body>
+</html>

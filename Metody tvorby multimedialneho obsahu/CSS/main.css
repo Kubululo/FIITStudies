@@ -3,30 +3,36 @@ body {
   margin-right: 0px;
   margin-left: 0px;
   background-attachment: fixed;
-  background-image: url("../Pictures_CAN_USE/IMG_20190817_130333.jpg");
+  background-image: url("../Assets/Picture/IMG_20190817_130333.jpg");
   height: 100%;
   z-index: -1;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.6) 0%,
       rgba(0, 0, 0, 0.6) 100%
-      
     ),
-    url("../Pictures_CAN_USE/IMG_20190817_130333.jpg");
-     background-size: 100%;
-     background-position: 250%;
-     
+    url("../Assets/Picture/IMG_20190817_130333.jpg");
+  background-size: cover;
+  background-position: fixed;
+  margin-bottom: 0px;
 }
-a{
+a {
   font-family: Raleway;
-  color:white;
+  color: white;
 }
-a:hover{
+a:hover {
   font-weight: 700;
 }
 h2,
 p {
   color: white;
+}
+.footer{
+  color: #ffff;
+  background-color: #ff6700;
+  font-family: Raleway;
+  text-align: center;
+  height: auto;
 }
 .header {
   color: #ffff;
@@ -101,7 +107,6 @@ p {
 }
 
 .mySlides {
-  
   display: none;
 }
 #slide {
@@ -191,31 +196,35 @@ p {
     opacity: 1;
   }
 }
-.specs {
+.specs, .gallery, .tips, .discussion {
   margin-top: 2%;
   text-align: justify;
   font-family: Raleway;
   margin-right: auto;
   margin-left: auto;
   width: 75%;
+  color:white;
+}
+.tips li{
+  margin-top: 2%;
 }
 .specs p {
   margin: auto;
 }
-.compare {
+.compare,.compare2 {
   width: 75%;
   height: auto;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 2%;
   text-align: justify;
   font-family: Raleway;
 }
-.compare .one {
+.compare .one, .compare2 .one {
   width: 45%;
   height: 100%;
   float: left;
 }
-.compare .two {
+.compare .two, .compare2 .two {
   margin-left: 55%;
   height: 100%;
   max-height: 800px;
@@ -294,82 +303,204 @@ p {
   height: auto;
   margin: 0 auto;
 }
-.ui_picture_div{
+.ui_picture_div {
   width: 20%;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5%;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
-.discussion{
+.ui_element_div {
+  font-family: Raleway;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  color: white;
+  margin-top: 5%;
+}
+.discussion {
   margin-top: 2%;
   text-align: justify;
   font-family: Raleway;
   margin-right: auto;
   margin-left: auto;
+  color:white;
   width: 75%;
+  margin-bottom: 5%;
 }
-.discussion_content{
-  width:80%;
+.discussion p{
+  margin-top: 2%;
+}
+.discussion_content {
+  width: 80%;
   height: auto;
   margin: 0 auto;
+  font-family: Raleway;
 }
-#discussion_form{
+#discussion_form {
   height: auto;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  
 }
-#discussion_form p{
-text-align: center;
-}
-.discussion_content p{
+#discussion_form p {
   text-align: center;
-  }
-.input{
+}
+.discussion_content p {
+  text-align: center;
+}
+.input {
   -webkit-border-radius: 50px;
--moz-border-radius: 50px;
-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   margin-top: 10px;
   height: auto;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   background: transparent;
-    border: none;
-    text-align: center;
-    font-family: Raleway;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.3);
-  
+  border: none;
+  text-align: center;
+  font-family: Raleway;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
-.comment{
+.comment {
   width: 100%;
   height: 80%;
   margin: 0 auto;
 }
-.specs_table_div{
-  width: 30%;
+.specs_table_div {
+  width: 70%;
   height: auto;
   margin: 0 auto;
+  color: white;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  border-radius: 3%;
+  font-family: Raleway;
 }
-.specs_table_div img{
+.comparation_table_div {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  color: white;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  border-radius: 3%;
+  font-family: Raleway;
+}
+.comparation_table_div table {
+  width: 100%;
+}
+
+.ui_element_div img {
   width: 100%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 10%;
 }
-.specs_table_div video{
+.ui_element_div video {
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10%;
 }
-.specs_table_div audio{
+.ui_element_div audio {
   width: 100%;
+}
+.tg {
+  width: 70%;
+  border: none;
+  margin: 0 auto;
+}
+.tg td {
+  font-family: Raleway;
+  font-size: 10px;
+  padding: 10px 15px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+.tg th {
+  font-family: Raleway;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 15px 15px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: black;
+}
+.tg .tg-0pky {
+  text-align: center;
+  vertical-align: top;
+}
+.flex-container > div{
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+}
+.flex-container img{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 800px) {
+  li.search {
+    display: none;
+  }
+  div.slideshow-container, div.slideshow-container img{
+    max-width: 200px;
+   
+  }
+  div.specs_table_div, table.tg, table.tg > .th,.tg-0pky{
+    padding: 0;
+    overflow: hidden;
+    font-size: 10%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  h1.logo_text {
+    display: none;
+  }
+  div.compare .one, div.compare .two{
+    float: none;
+    margin:0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  div.compare2 .one , div.compare2 .two{
+    margin: 0;
+    float: none;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 250px) {
+  section{
+    display: none;
+  }
+  div.header{
+    display: none;
+  }
+  p.resolution_error {
+    display: block;
+    color: white;
+  }
   
 }
-
-
+.discussion_read_more{
+  text-align: center;
+}
+textarea{
+  resize: none;
+}
+.resolution_error{
+  font-family: Raleway;
+  display: none;
+  text-align: center;
+}

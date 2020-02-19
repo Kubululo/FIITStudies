@@ -1,0 +1,24 @@
+﻿  5-10.c
+C:\FIIT\FIITStudies\Základy proceduralneho programovania\Cvičenia\cv5\5-10.c(18,27): warning C4013: 'getline' undefined; assuming extern returning int
+C:\FIIT\FIITStudies\Základy proceduralneho programovania\Cvičenia\cv5\5-10.c(19,15): warning C4018: '>': signed/unsigned mismatch
+C:\FIIT\FIITStudies\Základy proceduralneho programovania\Cvičenia\cv5\5-10.c(14,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  5-2.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+C:\FIIT\FIITStudies\Základy proceduralneho programovania\Cvičenia\cv5\5-2.c(8,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  5-9.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : see declaration of 'scanf'
+C:\FIIT\FIITStudies\Základy proceduralneho programovania\Cvičenia\cv5\5-9.c(8,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : see declaration of 'scanf'
+5-10.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-2.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-3.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-4.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-5.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-6.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-7.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-8.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-9.obj : error LNK2005: _main already defined in 5-1-Floyd-triangle.obj
+5-10.obj : error LNK2019: unresolved external symbol _getline referenced in function _main
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol _WinMain@16 referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\FIIT\FIITStudies\Základy proceduralneho programovania\Cvičenia\cv5\Debug\Skuska.exe : fatal error LNK1120: 2 unresolved externals
