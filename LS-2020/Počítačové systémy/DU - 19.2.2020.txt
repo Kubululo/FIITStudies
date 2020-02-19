@@ -1,4 +1,4 @@
-1. Aké typy súborov používa OS Window : ReFS , NTFS , FAT32 , exFAT
+1. Aké typy súborovych systémov používa OS Window : ReFS , NTFS , FAT32 , exFAT
 2. Kde sú vo Windows 10 uložené dokumenty používateľa: Na hlavnom disku v adresári "Users"(Používatelia)
 3. Kde sú štandartne ukladané inštalované programy: Podla typu programu (32bit/64bit). 32bit programy sú uložené v "ProgramFiles(x86)" a 64bit sú uložené v "ProgramFiles"
 4. Ako zistíte všetky akutálne sietové nastavenia: 1.Spôsob: V nastavení siete si dáme zobrazit sietove vlastnosti 2.Spôsob: v CMD použijeme príkaz "ipconfig /all"
